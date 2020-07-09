@@ -58,7 +58,7 @@ public class Ucontroller {
 
     @RequestMapping("vCode")
     public String vCode(String phone) {
-        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAI4Fd4WxBm9jPJ28VPiiVw", "BCB9f2C7tic7wFQXGebMnilmlWc6mk");
+        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "XXXXXXXXXXXXXXXXXX", "XXXXXXXXXXXXXXXX");
         IAcsClient client = new DefaultAcsClient(profile);
 
         CommonRequest request = new CommonRequest();
